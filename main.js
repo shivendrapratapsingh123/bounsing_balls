@@ -39,7 +39,7 @@ class Ball {
       this.velX = -(this.velX);
     }
     if((this.x - this.size ) <= 0){
-      this.velX = -(tihs.velX);
+      this.velX = -(this.velX);
     }
     if((this.y + this.size) >= height){
       this.velY = -(this.velY);
